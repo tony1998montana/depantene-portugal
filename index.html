@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Depantene Portugal — Pomada para Dores Articulares | Preço Oficial 39€</title>
+  <title>Depantene Portugal — Pomada para Dores Articulares | 39€ com -50%</title>
   <meta name="description" content="Sente-se incomodado com dores nas articulações? Depantene pomada alivia rapidamente articulações, costas e músculos. Preço oficial 39 €. Encomende com -50% de desconto."/>
   <meta name="keywords" content="depantene, depantene pomada, pomada para articulações, dores articulares, pomada articulacoes portugal"/>
   <link rel="canonical" href="https://depantene.pt/"/>
@@ -12,324 +12,779 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Product","name":"Depantene Pomada","description":"Pomada profissional para dores articulares, musculares e artrose. Fórmula natural com arnica, glucosamina e condroitina.","brand":{"@type":"Brand","name":"Depantene"},"offers":{"@type":"Offer","priceCurrency":"EUR","price":"39","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"847"}}
   </script>
+  <style>
+    /* ── STICKY SEO NAV ── */
+    .seo-nav {
+      background: #1a3a5c;
+      padding: 6px 0;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+    .seo-nav-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 14px;
+      align-items: center;
+    }
+    .seo-nav span { color: rgba(255,255,255,0.45); font-size: 11px; }
+    .seo-nav a {
+      color: rgba(255,255,255,0.80);
+      text-decoration: none;
+      transition: color 0.2s;
+      padding: 2px 0;
+    }
+    .seo-nav a:hover { color: #27ae60; }
+
+    /* ── MAIN LAYOUT ── */
+    .lp-wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+
+    /* ── HERO ── */
+    .lp-hero {
+      background: linear-gradient(135deg, #e8f5e9 0%, #ffffff 60%, #f0f7f4 100%);
+      padding: 50px 0 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    .lp-hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(39,174,96,0.10), transparent 65%);
+      pointer-events: none;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-img-col {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .hero-img-glow {
+      position: absolute;
+      width: 280px; height: 280px;
+      background: radial-gradient(circle, rgba(39,174,96,0.30) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      pointer-events: none;
+    }
+    .hero-img-col img {
+      width: 240px;
+      height: auto;
+      position: relative;
+      z-index: 2;
+      filter: drop-shadow(0 16px 40px rgba(39,174,96,0.35)) drop-shadow(0 0 20px rgba(26,58,92,0.12));
+      animation: floatProduct 4s ease-in-out infinite;
+    }
+    .hero-text-col {}
+    .hero-text-col h1 {
+      font-family: 'Lobster', serif;
+      font-size: clamp(24px, 3.2vw, 40px);
+      color: #1a3a5c;
+      line-height: 1.2;
+      margin-bottom: 22px;
+    }
+    .lp-benefits { margin-bottom: 26px; }
+    .lp-benefits li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 15px;
+      color: #444;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(39,174,96,0.10);
+    }
+    .lp-benefits li:last-child { border-bottom: none; }
+    .lp-benefits .ben-icon { font-size: 20px; flex-shrink: 0; line-height: 1.4; }
+    .hero-price-box {
+      display: inline-flex;
+      align-items: center;
+      gap: 18px;
+      background: rgba(39,174,96,0.08);
+      border: 1.5px solid rgba(39,174,96,0.35);
+      border-radius: 12px;
+      padding: 14px 22px;
+      margin-bottom: 20px;
+    }
+    .hero-price-new {
+      font-family: 'Lobster', serif;
+      font-size: 48px;
+      color: #27ae60;
+      line-height: 1;
+    }
+    .hero-price-new span { font-size: 24px; }
+    .hero-price-old {
+      font-size: 20px;
+      color: #aaa;
+      text-decoration: line-through;
+    }
+    .hero-price-save { font-size: 12px; color: #27ae60; font-weight: 700; margin-top: 2px; }
+    .hero-cta-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #27ae60, #219a52);
+      color: #fff;
+      font-family: 'Lobster', serif;
+      font-size: 22px;
+      letter-spacing: 1px;
+      padding: 16px 44px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 6px 28px rgba(39,174,96,0.45);
+      transition: all 0.3s;
+    }
+    .hero-cta-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 36px rgba(39,174,96,0.60);
+    }
+
+    /* ── BENEFITS STRIP ── */
+    .benefits-strip {
+      background: #27ae60;
+      padding: 28px 0;
+    }
+    .benefits-strip-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      text-align: center;
+    }
+    .bstrip-item { padding: 8px 6px; }
+    .bstrip-icon { font-size: 30px; margin-bottom: 8px; }
+    .bstrip-text {
+      font-size: 13px;
+      color: rgba(255,255,255,0.92);
+      line-height: 1.4;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── FORMULA SECTION ── */
+    .formula-section {
+      background: #fff;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .formula-section h2 {
+      font-family: 'Lobster', serif;
+      font-size: clamp(22px, 3vw, 34px);
+      color: #1a3a5c;
+      margin-bottom: 30px;
+      line-height: 1.25;
+    }
+    .formula-img-wrap {
+      margin: 0 auto 30px;
+      width: 280px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .formula-glow {
+      position: absolute;
+      width: 260px; height: 260px;
+      background: radial-gradient(circle, rgba(39,174,96,0.22) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(35px);
+    }
+    .formula-img-wrap img {
+      width: 280px;
+      height: auto;
+      position: relative;
+      z-index: 2;
+      filter: drop-shadow(0 12px 30px rgba(39,174,96,0.30));
+    }
+    .formula-text {
+      max-width: 680px;
+      margin: 0 auto;
+      font-size: 16px;
+      color: #555;
+      line-height: 1.75;
+    }
+
+    /* ── KEY FEATURES CARDS ── */
+    .features-section {
+      background: #f8f9fa;
+      padding: 60px 0;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .feature-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 28px 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+      border-left: 4px solid #27ae60;
+    }
+    .feature-icon { font-size: 34px; flex-shrink: 0; }
+    .feature-card h3 {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #1a3a5c;
+      line-height: 1.4;
+    }
+
+    /* ── EXPERT SECTION ── */
+    .expert-section {
+      background: #fff;
+      padding: 60px 0;
+    }
+    .expert-inner {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    .mag-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #f39c12, #e67e22);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 12px rgba(243,156,18,0.40);
+    }
+    .expert-section h2 {
+      font-family: 'Lobster', serif;
+      font-size: clamp(22px, 2.8vw, 32px);
+      color: #1a3a5c;
+      margin-bottom: 28px;
+    }
+    .expert-profile {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 22px;
+    }
+    .expert-avatar {
+      width: 80px; height: 80px;
+      background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 40px;
+      flex-shrink: 0;
+      border: 3px solid #27ae60;
+      box-shadow: 0 4px 16px rgba(39,174,96,0.25);
+    }
+    .expert-meta strong { display: block; font-size: 17px; color: #1a3a5c; font-weight: 700; }
+    .expert-meta span { font-size: 13px; color: #777; }
+    .expert-quote {
+      background: #f0f7f0;
+      border-left: 4px solid #27ae60;
+      border-radius: 0 10px 10px 0;
+      padding: 18px 22px;
+      font-size: 16px;
+      color: #444;
+      line-height: 1.7;
+      font-style: italic;
+      margin-bottom: 16px;
+    }
+    .expert-note {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.65;
+      padding: 0 4px;
+    }
+
+    /* ── HOW TO USE ── */
+    .how-section {
+      background: #f8f9fa;
+      padding: 60px 0;
+    }
+    .how-section h2 {
+      font-family: 'Lobster', serif;
+      font-size: clamp(22px, 2.8vw, 32px);
+      color: #1a3a5c;
+      margin-bottom: 14px;
+    }
+    .how-desc {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 30px;
+      max-width: 620px;
+    }
+    .how-steps { display: flex; flex-direction: column; gap: 16px; max-width: 680px; }
+    .how-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      background: #fff;
+      border-radius: 12px;
+      padding: 22px 24px;
+      box-shadow: 0 3px 16px rgba(0,0,0,0.07);
+    }
+    .step-num {
+      width: 44px; height: 44px;
+      background: linear-gradient(135deg, #27ae60, #219a52);
+      color: #fff;
+      font-family: 'Lobster', serif;
+      font-size: 22px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 3px 12px rgba(39,174,96,0.35);
+    }
+    .step-text { font-size: 16px; color: #444; line-height: 1.6; padding-top: 10px; }
+
+    /* ── TESTIMONIALS ── */
+    .reviews-section {
+      background: #fff;
+      padding: 60px 0;
+    }
+    .reviews-section h2 {
+      font-family: 'Lobster', serif;
+      font-size: clamp(22px, 2.8vw, 32px);
+      color: #1a3a5c;
+      margin-bottom: 30px;
+    }
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .review-card {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 24px 20px;
+      box-shadow: 0 3px 16px rgba(0,0,0,0.07);
+      position: relative;
+    }
+    .review-card::before {
+      content: '"';
+      position: absolute;
+      top: 12px; right: 18px;
+      font-size: 60px;
+      color: rgba(39,174,96,0.12);
+      font-family: Georgia, serif;
+      line-height: 1;
+    }
+    .rev-avatar {
+      width: 52px; height: 52px;
+      background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
+      margin-bottom: 10px;
+      border: 2px solid rgba(39,174,96,0.30);
+    }
+    .rev-stars { color: #f39c12; font-size: 16px; margin-bottom: 10px; letter-spacing: 2px; }
+    .rev-text { font-size: 14px; color: #555; line-height: 1.65; margin-bottom: 14px; font-style: italic; }
+    .rev-author { font-size: 13px; font-weight: 700; color: #1a3a5c; }
+    .rev-meta { font-size: 12px; color: #888; }
+
+    /* ── FINAL CTA ── */
+    .final-cta {
+      background: linear-gradient(135deg, #1a3a5c 0%, #2c5282 100%);
+      padding: 70px 0;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .final-cta::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(39,174,96,0.18), transparent 70%);
+      pointer-events: none;
+    }
+    .final-cta h2 {
+      font-family: 'Lobster', serif;
+      font-size: clamp(24px, 3.5vw, 42px);
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      position: relative;
+      z-index: 1;
+    }
+    .final-sub {
+      font-size: 16px;
+      color: rgba(255,255,255,0.75);
+      margin-bottom: 36px;
+      position: relative;
+      z-index: 1;
+    }
+    .final-price-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+    }
+    .final-price-new {
+      font-family: 'Lobster', serif;
+      font-size: 58px;
+      color: #27ae60;
+      line-height: 1;
+    }
+    .final-price-new span { font-size: 28px; }
+    .final-price-old {
+      font-size: 24px;
+      color: rgba(255,255,255,0.45);
+      text-decoration: line-through;
+    }
+    .final-cta-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #27ae60, #219a52);
+      color: #fff;
+      font-family: 'Lobster', serif;
+      font-size: 26px;
+      letter-spacing: 1px;
+      padding: 20px 60px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 8px 36px rgba(39,174,96,0.55);
+      transition: all 0.3s;
+      position: relative;
+      z-index: 1;
+    }
+    .final-cta-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 48px rgba(39,174,96,0.70);
+    }
+    .final-trust {
+      margin-top: 22px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.60);
+      position: relative;
+      z-index: 1;
+    }
+    .final-trust strong { color: rgba(255,255,255,0.85); }
+
+    /* ── FOOTER ── */
+    .lp-footer {
+      background: #1a3a5c;
+      padding: 28px 0 20px;
+      text-align: center;
+    }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px 18px;
+      margin-bottom: 18px;
+    }
+    .footer-links a {
+      font-size: 13px;
+      color: rgba(255,255,255,0.65);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: #27ae60; }
+    .footer-copy {
+      font-size: 12px;
+      color: rgba(255,255,255,0.35);
+    }
+
+    /* ── SECTION TITLES (shared) ── */
+    .lp-section-title {
+      font-family: 'Lobster', serif;
+      font-size: clamp(22px, 2.8vw, 34px);
+      color: #1a3a5c;
+      margin-bottom: 28px;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 28px; }
+      .hero-img-col { order: -1; }
+      .hero-img-col img { width: 180px; }
+      .benefits-strip-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+      .features-grid { grid-template-columns: 1fr; }
+      .reviews-grid { grid-template-columns: 1fr; }
+      .hero-price-box { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .expert-profile { flex-direction: column; gap: 14px; }
+      .final-price-row { flex-direction: column; gap: 8px; }
+    }
+    @media (max-width: 480px) {
+      .benefits-strip-grid { grid-template-columns: repeat(2, 1fr); }
+      .lp-wrap { padding: 0 14px; }
+      .hero-cta-btn { font-size: 18px; padding: 14px 32px; }
+      .final-cta-btn { font-size: 20px; padding: 16px 40px; }
+    }
+  </style>
 </head>
 <body>
 
-<!-- HEADER -->
+<!-- ── SEO STICKY NAV (inner pages) ── -->
+<div class="seo-nav">
+  <div class="seo-nav-inner">
+    <span>Depantene:</span>
+    <a href="pomada-depantene.html">Pomada</a>
+    <a href="dor-nas-articulacoes.html">Articulações</a>
+    <a href="dor-no-joelho.html">Joelho</a>
+    <a href="artrose-joelho.html">Artrose</a>
+    <a href="dores-costas.html">Costas</a>
+  </div>
+</div>
+
+<!-- ── 1. HEADER / NAV ── -->
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="logo">
       <img src="product.svg" alt="Depantene" class="logo-img"/>
-      <div><span class="logo-text">Depantene</span><div class="logo-sub">Portugal — desde 2012</div></div>
+      <div>
+        <span class="logo-text">Depantene</span>
+        <div class="logo-sub">Portugal — Pomada Articular</div>
+      </div>
     </a>
     <button class="nav-toggle" onclick="this.nextElementSibling.classList.toggle('open')">☰</button>
     <nav class="site-nav">
-      <a href="index.html" class="active">Home</a>
-      <a href="pomada-depantene.html">Pomada</a>
-      <a href="dor-nas-articulacoes.html">Articulações</a>
-      <a href="dores-costas.html">Costas</a>
-      <a href="artrose-joelho.html">Artrose</a>
-      <a href="dores-articulacoes-maos.html">Artrite</a>
-      <a href="dor-no-joelho.html">Joelho</a>
-      <a href="depantene-farmacia.html">Farmácia</a>
+      <a href="#order">Encomendar</a>
+      <a href="#apply">Aplicação</a>
+      <a href="#reviews">Testemunhos</a>
     </nav>
   </div>
 </header>
 
-<!-- ============================================================
-     PRODUCT SHOWCASE — HERO COM FOTO PRODUTO
-     ============================================================ -->
-<section class="product-showcase">
-  <div class="showcase-inner">
+<!-- ── 2. HERO SECTION ── -->
+<section class="lp-hero">
+  <div class="lp-wrap">
+    <div class="hero-grid">
 
-    <!-- FOTO PRODUTO GRANDE -->
-    <div class="showcase-product">
-      <div class="product-glow-gold"></div>
-      <div class="product-glow"></div>
-      <img src="product.svg" alt="Depantene — Pomada para Articulações 75ml"/>
-      <div class="product-badge">✦ 75 ml · 39 €</div>
-    </div>
-
-    <!-- CONTEÚDO HERO -->
-    <div class="showcase-content">
-      <div class="hero-badge">
-        <span>Oferta Limitada</span>
-        <span class="discount">-50%</span>
+      <!-- LEFT: Product image -->
+      <div class="hero-img-col">
+        <div class="hero-img-glow"></div>
+        <img src="product.svg" alt="Depantene — Pomada para Articulações 75ml"/>
       </div>
-      <h1>Sente-se incomodado com dores nas articulações?</h1>
-      <p class="hero-desc">Depantene é a pomada profissional portuguesa que alivia rapidamente dores articulares, costas e músculos — desde a primeira aplicação.</p>
-      <ul class="hero-benefits">
-        <li>Ajuda a aliviar as dores causadas por contusões, reumatismo e osteoartrite</li>
-        <li>Ajuda a eliminar os depósitos de sal nas articulações</li>
-        <li>Possui propriedades regeneradoras das articulações e da cartilagem</li>
-        <li>Reduz inchaço e inflamação desde a 1ª aplicação</li>
-        <li>Fórmula 100% natural, sem efeitos secundários</li>
-      </ul>
 
-      <div class="price-widget">
+      <!-- RIGHT: Content -->
+      <div class="hero-text-col">
+        <h1>Sente-se incomodado com dores nas articulações?</h1>
+        <ul class="lp-benefits">
+          <li>
+            <span class="ben-icon">🩹</span>
+            Ajuda a aliviar as dores causadas por contusões, reumatismo e osteoartrite
+          </li>
+          <li>
+            <span class="ben-icon">🧂</span>
+            Ajuda a eliminar os depósitos de sal nas articulações
+          </li>
+          <li>
+            <span class="ben-icon">🔄</span>
+            Possui propriedades regeneradoras das articulações e da cartilagem
+          </li>
+          <li>
+            <span class="ben-icon">❌</span>
+            Pode ser que funcione!
+          </li>
+        </ul>
+
+        <div class="hero-price-box">
+          <div>
+            <div class="hero-price-old">78 €</div>
+            <div class="hero-price-new">39 <span>€</span></div>
+            <div class="hero-price-save">Poupança: 39 € — Desconto 50%</div>
+          </div>
+        </div>
+
         <div>
-          <div class="price-new">39 <span>€</span></div>
-          <div class="price-old">78 €</div>
-          <div class="price-saving">Poupança: 39 € — Desconto 50%</div>
+          <a href="https://order.depanten.it/" class="hero-cta-btn">ENCOMENDA →</a>
         </div>
-        <a href="https://order.depanten.it/" class="btn-buy">ENCOMENDAR →</a>
       </div>
 
-      <div class="trust-badges">
-        <div class="trust-badge"><span class="icon">🔒</span> Pagamento na entrega</div>
-        <div class="trust-badge"><span class="icon">🚚</span> 4–7 dias</div>
-        <div class="trust-badge"><span class="icon">🌿</span> 100% Natural</div>
-        <div class="trust-badge"><span class="icon">🇵🇹</span> Portugal</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 3. BENEFITS ICONS STRIP ── -->
+<section class="benefits-strip">
+  <div class="lp-wrap">
+    <div class="benefits-strip-grid">
+      <div class="bstrip-item">
+        <div class="bstrip-icon">🎯</div>
+        <div class="bstrip-text">a eliminar a dor</div>
+      </div>
+      <div class="bstrip-item">
+        <div class="bstrip-icon">💪</div>
+        <div class="bstrip-text">na redução da compressão e da rigidez</div>
+      </div>
+      <div class="bstrip-item">
+        <div class="bstrip-icon">🌿</div>
+        <div class="bstrip-text">a reduzir o inchaço e a vermelhidão</div>
+      </div>
+      <div class="bstrip-item">
+        <div class="bstrip-icon">🦴</div>
+        <div class="bstrip-text">a reduzir lacerações nas articulações</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PAIN AREAS GALLERY — FOTOS REAIS -->
-<section class="painzones-section">
-  <div class="container">
-    <h2 class="section-title">Depantene para Cada Zona Dolorosa</h2>
-    <p class="section-sub">Eficaz em joelhos, costas, mãos e todas as articulações</p>
-    <div class="painzones-grid">
-      <div class="painzone-card">
-        <div class="painzone-photo"><img src="photos/knee.jpg" alt="Dor no joelho — tratamento com Depantene"/></div>
-        <h3>Joelho</h3>
-        <p>Artrose, tendinite, dor femoropatelar, gonartrose</p>
-        <a href="dor-no-joelho.html" class="zone-link">Descobrir →</a>
-      </div>
-      <div class="painzone-card">
-        <div class="painzone-photo"><img src="photos/back.jpg" alt="Dores nas costas — tratamento com Depantene"/></div>
-        <h3>Costas</h3>
-        <p>Lombalgia, hérnia discal, ciática, espasmos musculares</p>
-        <a href="dores-costas.html" class="zone-link">Descobrir →</a>
-      </div>
-      <div class="painzone-card">
-        <div class="painzone-photo"><img src="photos/hands.jpg" alt="Artrite nas mãos — tratamento com Depantene"/></div>
-        <h3>Mãos</h3>
-        <p>Artrite reumatoide, rigidez matinal, dor nos dedos</p>
-        <a href="dores-articulacoes-maos.html" class="zone-link">Descobrir →</a>
-      </div>
-      <div class="painzone-card">
-        <div class="painzone-photo"><img src="photos/apply.jpg" alt="Como aplicar Depantene"/></div>
-        <h3>Como usar</h3>
-        <p>Aplicar 2–3 vezes ao dia na zona dolorosa</p>
-        <a href="pomada-depantene.html" class="zone-link">Descobrir →</a>
-      </div>
+<!-- ── 4. FORMULA SECTION ── -->
+<section class="formula-section" id="formula">
+  <div class="lp-wrap">
+    <h2>Depantene — fórmula complexa de ingredientes ativos</h2>
+    <div class="formula-img-wrap">
+      <div class="formula-glow"></div>
+      <img src="product.svg" alt="Depantene — Fórmula de Ingredientes Ativos"/>
     </div>
+    <p class="formula-text">
+      O gel ajuda a abrandar a degradação do tecido cartilagíneo, promove a estimulação do seu metabolismo. O magnésio e o cálcio não são eliminados dos ossos tão rapidamente — preservando assim a integridade óssea. A sua utilização regular ajuda a retardar o desenvolvimento de problemas nas articulações e na coluna.
+    </p>
   </div>
 </section>
 
-<!-- BEFORE / AFTER — FOTOS REAIS -->
-<section class="result-section">
-  <div class="container">
-    <h2 class="section-title">Vida Ativa com Depantene</h2>
-    <p class="section-sub">Milhares de portugueses recuperaram a mobilidade e voltaram a viver sem dor</p>
-    <div class="result-photos-grid">
-      <div class="result-photo-card result-photo-before">
-        <div class="result-photo-wrap">
-          <img src="photos/back.jpg" alt="Antes — dor crónica nas costas"/>
-          <div class="result-photo-overlay before-overlay">
-            <span class="result-label-pill before-pill">ANTES</span>
-            <p>Dor crónica, mobilidade limitada</p>
-          </div>
+<!-- ── 5. KEY FEATURES ── -->
+<section class="features-section">
+  <div class="lp-wrap">
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <div>
+          <h3>Funciona desde a primeira semana de utilização</h3>
         </div>
       </div>
-      <div class="result-vs">VS</div>
-      <div class="result-photo-card result-photo-after">
-        <div class="result-photo-wrap">
-          <img src="photos/elderly-active.jpg" alt="Depois — vida ativa sem dor"/>
-          <div class="result-photo-overlay after-overlay">
-            <span class="result-label-pill after-pill">DEPOIS</span>
-            <p>Mobilidade recuperada, vida ativa</p>
-          </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎒</div>
+        <div>
+          <h3>Prático e versátil</h3>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌿</div>
+        <div>
+          <h3>Ingredientes naturais</h3>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">👨‍⚕️</div>
+        <div>
+          <h3>Recomendado por especialistas</h3>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about-section">
-  <div class="container">
-    <div class="about-grid">
-      <div class="about-text">
-        <h2 class="section-title" style="text-align:left">Depantene contém apenas componentes ativos!</h2>
-        <p>Depantene é um produto que alivia a dor causada pela osteoartrite e osteocondrosa. Abranda a degradação do tecido cartilagíneo, promove o metabolismo dos tecidos.</p>
-        <p>O magnésio e o cálcio são preservados nos ossos, mantendo a integridade óssea. O uso regular ajuda a retardar o desenvolvimento de problemas nas articulações e na coluna.</p>
-        <p>Os efeitos são visíveis desde a <strong style="color:var(--gold)">primeira aplicação</strong>. O uso regular pode retardar a progressão de doenças articulares e da coluna vertebral.</p>
-        <div class="trust-badges" style="margin-top:20px">
-          <div class="trust-badge"><span class="icon">✓</span> Certificado CE</div>
-          <div class="trust-badge"><span class="icon">🌿</span> 100% Natural</div>
-          <div class="trust-badge"><span class="icon">🏆</span> 847+ Avaliações</div>
+<!-- ── 6. EXPERT SECTION ── -->
+<section class="expert-section" id="apply">
+  <div class="lp-wrap">
+    <div class="expert-inner">
+      <div class="mag-badge">A nossa saúde — pág. 55</div>
+      <h2>Opinião de especialistas</h2>
+      <div class="expert-profile">
+        <div class="expert-avatar">👨‍⚕️</div>
+        <div class="expert-meta">
+          <strong>William Gomes</strong>
+          <span>Especialista Português em Reumatologia</span>
         </div>
       </div>
-      <div class="about-img">
-        <img src="product.svg" alt="Depantene pomada articulações"/>
+      <div class="expert-quote">
+        "um produto que ajuda a eliminar a dor e a inflamação em apenas 1 utilização, ajuda a rejuvenescer as articulações e a regressar à vida ativa."
+      </div>
+      <p class="expert-note">
+        Eu próprio utilizo Depantene para a osteocondrose cervical... até me esqueci do que é um problema articular.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ── 7. HOW TO USE ── -->
+<section class="how-section">
+  <div class="lp-wrap">
+    <h2 class="lp-section-title">Como utilizar — Depantene</h2>
+    <p class="how-desc">
+      Indicado para quem quer recuperar a tranquilidade e ter um estilo de vida ativo apesar dos problemas articulares.
+    </p>
+    <div class="how-steps">
+      <div class="how-step">
+        <div class="step-num">1</div>
+        <div class="step-text">Aplique o gel numa camada fina na área da pele problemática 3 vezes por dia.</div>
+      </div>
+      <div class="how-step">
+        <div class="step-num">2</div>
+        <div class="step-text">A duração recomendada é de 30 dias. Se necessário, é possível repetir.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- BENEFITS -->
-<section class="benefits-section">
-  <div class="container">
-    <h2 class="section-title">Porquê escolher Depantene?</h2>
-    <p class="section-sub">5 razões pelas quais milhares de portugueses escolhem Depantene todos os dias</p>
-    <div class="benefits-grid">
-      <div class="benefit-card"><span class="benefit-icon">🎯</span><h3>Amplo Espetro</h3><p>Trata doenças traumáticas e degenerativas da coluna e articulações</p></div>
-      <div class="benefit-card"><span class="benefit-icon">✅</span><h3>Sem Efeitos Secundários</h3><p>Seguro para uso ocasional e regular, adequado a todas as idades</p></div>
-      <div class="benefit-card"><span class="benefit-icon">🌿</span><h3>100% Natural</h3><p>Apenas componentes ativos de plantas medicinais selecionadas</p></div>
-      <div class="benefit-card"><span class="benefit-icon">⚡</span><h3>Altamente Eficaz</h3><p>Melhora a condição e alivia a dor desde a primeira aplicação</p></div>
-      <div class="benefit-card"><span class="benefit-icon">🏆</span><h3>Recomendado por Especialistas</h3><p>Produto certificado que respeita todos os padrões de qualidade europeus</p></div>
-    </div>
-  </div>
-</section>
+<!-- ── 8. TESTIMONIALS ── -->
+<section class="reviews-section" id="reviews">
+  <div class="lp-wrap">
+    <h2 class="lp-section-title">Comentários de clientes:</h2>
+    <div class="reviews-grid">
 
-<!-- INGREDIENTS -->
-<section class="ingredients-section">
-  <div class="container">
-    <h2 class="section-title">Ingredientes Ativos</h2>
-    <p class="section-sub">Fórmula exclusiva com ingredientes naturais de alta concentração</p>
-    <div class="ingredients-grid">
-      <div class="ingredient-item"><span class="ingredient-icon">💧</span><div><h4>Ácido Hialurónico</h4><p>Lubrifica e regenera as articulações por dentro</p></div></div>
-      <div class="ingredient-item"><span class="ingredient-icon">🌺</span><div><h4>Arnica Montana</h4><p>Potente anti-inflamatório natural para dores musculares</p></div></div>
-      <div class="ingredient-item"><span class="ingredient-icon">🦴</span><div><h4>Glucosamina</h4><p>Restaura a cartilagem e reduz a rigidez articular</p></div></div>
-      <div class="ingredient-item"><span class="ingredient-icon">🔗</span><div><h4>Condroitina</h4><p>Protege a cartilagem e melhora a mobilidade das articulações</p></div></div>
-      <div class="ingredient-item"><span class="ingredient-icon">🌶️</span><div><h4>Capsaicina</h4><p>Efeito termogénico para alívio rápido da dor</p></div></div>
-      <div class="ingredient-item"><span class="ingredient-icon">🌿</span><div><h4>Óleo de Eucalipto</h4><p>Ação refrescante e anti-inflamatória profunda</p></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- EXPERT -->
-<section class="expert-section">
-  <h2 class="section-title">Recomendado por Especialistas</h2>
-  <div class="expert-box">
-    <div class="expert-avatar">👨‍⚕️</div>
-    <div>
-      <p class="expert-quote">"O Depantene é um produto extraordinário para a osteoartrite e a osteocondrosa. Recomendo a todos os meus doentes com dores nas costas ou articulares. Depantene alivia rapidamente a dor e a inflamação, regenera as articulações e os tendões, ajudando a regressar a uma vida ativa. Eu próprio utilizo Depantene — até me esqueci do que é um problema articular."</p>
-      <div class="expert-name">William Gomes</div>
-      <div class="expert-title">Especialista Português em Reumatologia</div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-  <div class="container">
-    <h2 class="section-title">O que dizem os nossos clientes</h2>
-    <p class="section-sub">Mais de 847 avaliações verificadas de todo Portugal</p>
-    <div class="testimonials-grid">
-      <div class="testimonial-card"><div class="stars">★★★★★</div><p>Até agora, não pude brincar com os meus netos por causa da osteocondrosa. Experimentei muitos produtos, só o Depantene ajudou. Se eu tivesse sabido isto mais cedo, teria poupado muito dinheiro e tempo.</p><div class="testimonial-author">— Patrícia Pires, 57 anos, Aveiro</div></div>
-      <div class="testimonial-card"><div class="stars">★★★★★</div><p>Sofria muito com dores de costas há anos. Encontrei o Depantene por acaso e encomendei. Após alguns dias senti-me muito melhor. Finalmente consigo trabalhar sem dor.</p><div class="testimonial-author">— Luís Abreu, 45 anos, Beja</div></div>
-      <div class="testimonial-card"><div class="stars">★★★★☆</div><p>Pensei que a minha artrose só ia piorar. O meu filho comprou-me o Depantene e foi uma surpresa. Consegui livrar-me da dor. Há dois meses que está tudo bem.</p><div class="testimonial-author">— Mélanie Ramos, 52 anos, Valença</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- HOW TO USE -->
-<section class="howto-section">
-  <div class="container">
-    <h2 class="section-title">Como Aplicar Depantene</h2>
-    <p class="section-sub">3 passos simples para o máximo efeito</p>
-    <div class="steps-grid">
-      <div class="step-item"><div class="step-number">1</div><h3>Aplicar</h3><p>Aplicar o gel numa camada fina na área da pele dolorosa, massajando suavemente</p></div>
-      <div class="step-item"><div class="step-number">2</div><h3>Massajar</h3><p>Usar 2–3 vezes por dia, de preferência manhã, tarde e noite</p></div>
-      <div class="step-item"><div class="step-number">3</div><h3>Aguardar</h3><p>Não lavar durante pelo menos 1 hora após a aplicação para máximo efeito</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- DELIVERY -->
-<section class="delivery-section">
-  <div class="container">
-    <h2 class="section-title">Entrega e Pagamento</h2>
-    <div class="delivery-grid">
-      <div class="delivery-item"><div class="icon">🚚</div><h3>Entrega Rápida</h3><p>Receberá o Depantene em 4–7 dias em todo Portugal</p></div>
-      <div class="delivery-item"><div class="icon">💳</div><h3>Pagamento Seguro</h3><p>Pode pagar em dinheiro na entrega — sem risco!</p></div>
-      <div class="delivery-item"><div class="icon">📦</div><h3>Embalagem Discreta</h3><p>Envio em embalagem neutra sem indicações do conteúdo</p></div>
-      <div class="delivery-item"><div class="icon">🔄</div><h3>Garantia 30 Dias</h3><p>Se não estiver satisfeito, reembolso completo em 30 dias</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA FINAL -->
-<section class="cta-section">
-  <h2>SÓ HOJE — Desconto de 50%!</h2>
-  <p class="subtitle">Encomende agora e receba Depantene ao preço especial promocional</p>
-  <div class="cta-price-row">
-    <span class="cta-price-new">39 €</span>
-    <span class="cta-price-old">78 €</span>
-  </div>
-  <a href="https://order.depanten.it/" class="btn-buy" style="max-width:420px;display:inline-block;">ENCOMENDAR DEPANTENE →</a>
-  <div class="trust-badges" style="justify-content:center;margin-top:20px">
-    <div class="trust-badge"><span class="icon">🔒</span> Pagamento Seguro</div>
-    <div class="trust-badge"><span class="icon">✅</span> Produto Certificado</div>
-    <div class="trust-badge"><span class="icon">🇵🇹</span> Portugal</div>
-  </div>
-</section>
-
-<!-- ============================================================
-     FOOTER COM TODAS AS PÁGINAS EM BAIXO
-     ============================================================ -->
-<footer class="site-footer">
-
-  <!-- NAVEGAÇÃO COMPLETA TODAS AS PÁGINAS -->
-  <div class="footer-pages">
-    <div class="footer-pages-title">🔗 Todas as Páginas do Site</div>
-    <div class="pages-nav-grid">
-      <a href="index.html" class="active"><span class="pg-icon">🏠</span>Homepage — Depantene Portugal</a>
-      <a href="pomada-depantene.html"><span class="pg-icon">🧴</span>Pomada Depantene: composição</a>
-      <a href="depantene-farmacia.html"><span class="pg-icon">💊</span>Depantene na Farmácia</a>
-      <a href="dor-nas-articulacoes.html"><span class="pg-icon">🦴</span>Dores Articulares</a>
-      <a href="dores-no-corpo.html"><span class="pg-icon">💪</span>Dores no Corpo Todo</a>
-      <a href="creme-articulacoes.html"><span class="pg-icon">🧴</span>Creme para Articulações</a>
-      <a href="dor-no-joelho.html"><span class="pg-icon">🦵</span>Dor no Joelho</a>
-      <a href="dor-joelho-dobrar.html"><span class="pg-icon">🦵</span>Dor no Joelho ao Dobrar</a>
-      <a href="artrose-joelho.html"><span class="pg-icon">🩺</span>Artrose do Joelho</a>
-      <a href="artrose-anca.html"><span class="pg-icon">🩺</span>Artrose da Anca</a>
-      <a href="dores-articulacoes-maos.html"><span class="pg-icon">🤲</span>Dores nas Articulações das Mãos</a>
-      <a href="dores-costas.html"><span class="pg-icon">🔙</span>Dores nas Costas</a>
-    </div>
-  </div>
-
-  <!-- FOOTER MAIN -->
-  <div class="footer-main">
-    <div class="footer-inner">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <span class="logo-text">Depantene</span>
-          <div class="logo-sub">Portugal — desde 2012</div>
-          <p>Pomada profissional para dores articulares e musculares. Fórmula natural, eficácia comprovada, produto em Portugal.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Produto</h4>
-          <ul>
-            <li><a href="pomada-depantene.html">Pomada Depantene</a></li>
-            <li><a href="creme-articulacoes.html">Creme para articulações</a></li>
-            <li><a href="depantene-farmacia.html">Depantene na farmácia</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Condições tratadas</h4>
-          <ul>
-            <li><a href="dor-nas-articulacoes.html">Dores articulares</a></li>
-            <li><a href="artrose-joelho.html">Artrose</a></li>
-            <li><a href="dores-articulacoes-maos.html">Artrite nas mãos</a></li>
-            <li><a href="dor-no-joelho.html">Dor no joelho</a></li>
-            <li><a href="dores-costas.html">Dores nas costas</a></li>
-          </ul>
-        </div>
+      <div class="review-card">
+        <div class="rev-avatar">👩‍🦳</div>
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">Até agora, não pude brincar com os meus netos por causa da minha osteocondrose... só o Depantene ajudou. Se eu tivesse sabido isto mais cedo, teria poupado muito dinheiro e tempo.</p>
+        <div class="rev-author">Patrícia Pires</div>
+        <div class="rev-meta">57 anos · Aveiro</div>
       </div>
-      <div class="footer-bottom">
-        <p>© 2024 Depantene Portugal. Todos os direitos reservados. O produto não é um medicamento.</p>
-        <div class="footer-links">
-          <a href="privacidade.html">Política de Privacidade</a>
-          <a href="termos.html">Termos</a>
-          <a href="contacto.html">Contacto</a>
-        </div>
+
+      <div class="review-card">
+        <div class="rev-avatar">👨</div>
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">Sofria muito com dores de costas... encontrei este site por acaso e encomendei o Depantene... após alguns dias senti-me muito melhor.</p>
+        <div class="rev-author">Luís Abreu</div>
+        <div class="rev-meta">45 anos · Beja</div>
       </div>
+
+      <div class="review-card">
+        <div class="rev-avatar">👩</div>
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">Pensei que só ia piorar... o meu filho comprou-me o Depantene... consegui livrar-me da dor. Há dois meses que está tudo bem.</p>
+        <div class="rev-author">Mélanie Ramos</div>
+        <div class="rev-meta">52 anos · Valença</div>
+      </div>
+
     </div>
+  </div>
+</section>
+
+<!-- ── 9. FINAL CTA ── -->
+<section class="final-cta" id="order">
+  <div class="lp-wrap">
+    <h2>Esqueçam os movimentos pesados!<br>Retome a sua vida ativa!</h2>
+    <p class="final-sub">Depantene ajuda a combater a osteocondrose, a osteoartrite e as lesões</p>
+    <div class="final-price-row">
+      <div class="final-price-old">78 €</div>
+      <div class="final-price-new">39 <span>€</span></div>
+    </div>
+    <a href="https://order.depanten.it/" class="final-cta-btn">Encomendar agora!</a>
+    <p class="final-trust">
+      <strong>Pagamento na entrega</strong> &nbsp;·&nbsp; Entrega em <strong>4–7 dias</strong> &nbsp;·&nbsp; Portugal
+    </p>
+  </div>
+</section>
+
+<!-- ── 10. FOOTER ── -->
+<footer class="lp-footer">
+  <div class="lp-wrap">
+    <nav class="footer-links">
+      <a href="index.html">Início</a>
+      <a href="pomada-depantene.html">Pomada Depantene</a>
+      <a href="dor-nas-articulacoes.html">Dores Articulações</a>
+      <a href="dor-no-joelho.html">Dor no Joelho</a>
+      <a href="artrose-joelho.html">Artrose do Joelho</a>
+      <a href="dores-costas.html">Dores nas Costas</a>
+      <a href="creme-articulacoes.html">Creme Articulações</a>
+      <a href="dores-articulacoes-maos.html">Artrite das Mãos</a>
+      <a href="depantene-farmacia.html">Farmácia</a>
+      <a href="dor-no-corpo.html">Dores no Corpo</a>
+      <a href="artrose-anca.html">Artrose da Anca</a>
+    </nav>
+    <p class="footer-copy">&copy; 2025 Depantene Portugal. Todos os direitos reservados.</p>
   </div>
 </footer>
 
