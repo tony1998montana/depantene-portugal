@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://depantene.pt/sitemap.xml
